@@ -1,0 +1,135 @@
+.ico-city {
+  display: inline-block;
+  background: url(../images/city.svg) no-repeat;
+  width: 115px;
+  height: 145px;
+  margin-right: 20px;
+}
+
+.main_publications__cities_list {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  &__block {
+    display: flex;
+    flex-flow: row nowrap;
+    margin-bottom: 40px;
+    &__text {
+      &__header {
+        font-weight: bold;
+        font-size: 15px;
+        width: 215px;
+        margin-bottom: 18px;
+      }
+      &__info {
+        font-size: 14px;
+        line-height: 20px;
+        color: #444444;
+        width: 215px;
+      }
+    }
+  }
+}
+.flex-for {
+  display: flex;
+  justify-content: center;
+  .main_publications__cities__button {
+    width: 190px;
+    min-height: 40px;
+    border: 1px solid #cccccc;
+    box-sizing: border-box;
+    font-family: Raleway;
+    font-weight: 800;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #777777;
+    margin-bottom: 106px;
+  }
+}
+
+.flex {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.other_cities {
+  width: 100%;
+  &__back {
+    background: url(../images/china-map.svg) no-repeat top right;
+    min-height: 598px;
+  }
+  &__info {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    &__text {
+      width: 349px;
+      font-family: Raleway;
+      font-size: 16px;
+      line-height: 23px;
+      color: #777777;
+      margin-right: 30px;
+    }
+    &__list {
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: space-between;
+      &__block {
+        ul {
+          width: 160px;
+          padding: 0px;
+          margin: 0px 30px 0px 0px;
+          li {
+            margin: 0px 0px 30px 0px;
+            padding: 0px;
+            list-style: none;
+            text-decoration: none;
+            font-family: Raleway;
+            font-weight: bold;
+            font-size: 16px;
+            text-align: center;
+            color: #777777;
+          }
+        }
+      }
+    }
+  }
+}
+
+.tabs {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  margin: 28px 0px 60px 0px;
+  &__block {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 255px;
+    min-height: 60px;
+    border: 1px solid #dddddd;
+    box-sizing: border-box;
+    &:nth-child(2) {
+      border: none;
+      box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+      p {
+        color: #b10bff;
+      }
+    }
+
+    p {
+      font-family: Raleway;
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 16px;
+      display: flex;
+      color: #444444;
+      margin: 0px;
+    }
+  }
+}

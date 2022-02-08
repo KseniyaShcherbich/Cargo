@@ -1,0 +1,45 @@
+.girl {
+  background: url(../images/girl.svg);
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 28px;
+  height: 37px;
+}
+.main_publications__info {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  &__first {
+    background: olive;
+    min-width: 540px;
+    min-height: 148px;
+
+    &__toys {
+      display: flex;
+      flex-flow: row wrap;
+
+      &__block {
+        width: 33%;
+        display: flex;
+        flex-flow: row nowrap;
+        margin-bottom: 20px;
+        &__girl {
+          margin-right: 10px;
+        }
+        &__girl_text {
+          font-family: Raleway;
+          font-weight: 600;
+          font-size: 12px;
+          line-height: 14px;
+          display: flex;
+          align-items: center;
+          color: #aaaaaa;
+        }
+      }
+    }
+  }
+  &__second {
+    min-width: 540px;
+    background: orchid;
+  }
+}

@@ -1,0 +1,52 @@
+.main_publication__info {
+  margin: 31px 0px 30px 0px;
+  &__text {
+    width: 450px;
+    margin-right: 95px;
+    &__choice {
+      font-family: Raleway;
+      font-size: 13px;
+      line-height: 18px;
+      color: #aaaaaa;
+      margin-bottom: 5px;
+    }
+    &__cities {
+      font-family: Raleway;
+      font-weight: 600;
+      font-size: 13px;
+      line-height: 18px;
+      color: #1b79e7;
+      margin-bottom: 20px;
+    }
+    &__inform {
+      font-family: Raleway;
+      font-size: 14px;
+      line-height: 20px;
+      color: #444444;
+      margin-bottom: 20px;
+    }
+    &__inform2 {
+      font-family: Raleway;
+      font-size: 14px;
+      line-height: 20px;
+      color: #444444;
+      margin-bottom: 20px;
+    }
+    &__inform3 {
+      font-family: Raleway;
+      font-size: 14px;
+      line-height: 20px;
+      color: #444444;
+    }
+  }
+}
+
+.main_publications__info {
+  margin-bottom: 92px;
+  display: flex;
+  flex-flow: row wrap;
+  &.no_space {
+    justify-content: flex-start;
+    margin-left: 30px;
+  }
+}

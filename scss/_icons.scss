@@ -1,0 +1,127 @@
+.icon {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: 20px;
+
+  &.calendar {
+    background-image: url(../images/calendar.png);
+  }
+
+  &.user {
+    background-image: url(../images/user.png);
+  }
+
+  &.calc {
+    background-image: url(../images/ico-calc.svg);
+    width: 24px;
+    height: 24px;
+    margin: 0px;
+  }
+  &.girl {
+    background-image: url(../images/ico-girl.svg);
+    width: 48px;
+    height: 58px;
+  }
+
+  &.active {
+    background: url(../images/ico-cities-ppl.svg) no-repeat;
+  }
+
+  &.active {
+    background: url(../images/ico-cities-ppl.svg) no-repeat;
+  }
+
+  &.ico-city {
+    display: inline-block;
+    background: url(../images/city.svg) no-repeat;
+    width: 115px;
+    height: 145px;
+    margin-right: 20px;
+  }
+}
+.house-ico {
+  background: url(../images/ico-house.svg);
+  width: 84px;
+  height: 84px;
+}
+
+.ppl {
+  background: url(../images/ico-house_ppl.png);
+  width: 84px;
+  height: 84px;
+}
+
+.green {
+  background: url(../images/ico-house_green.svg);
+  width: 84px;
+  height: 84px;
+}
+
+.yellow {
+  background: url(../images/ico-yellow.svg);
+  width: 84px;
+  height: 84px;
+}
+.down-arrow {
+  display: inline-block;
+  background: url(../images/down-arrow.svg);
+  width: 14px;
+  height: 8px;
+}
+
+.ico_container_blue {
+  background: url(../images/container_blue.svg);
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 256px;
+  height: 140px;
+  margin-right: 19px;
+}
+
+.ico_container_grey {
+  img {
+    margin-right: 19px;
+  }
+}
+
+.ico-china {
+  background: url(../images/ico-china.svg) no-repeat;
+  display: inline-block;
+  width: 26px;
+}
+.ico-grey_block {
+  background: url(../images/grey_block.svg) no-repeat;
+  display: inline-block;
+  width: 255px;
+  height: 140px;
+}
+
+//tabs icons
+.ico-ways {
+  display: inline-block;
+  background: url(../images/ico-ways.svg) no-repeat;
+  width: 26px;
+  height: 34px;
+}
+
+.ico-cities {
+  display: inline-block;
+  background: url(../images/ico-cities.svg) no-repeat;
+  width: 34px;
+  height: 34px;
+}
+
+.ico-products {
+  background: url(../images/ico-products.svg) no-repeat;
+  width: 31px;
+  height: 34px;
+}
+
+.ico-declaration {
+  background: url(../images/ico-declaration.svg) no-repeat;
+  width: 25px;
+  height: 34px;
+}

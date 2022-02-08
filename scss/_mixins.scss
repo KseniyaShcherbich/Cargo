@@ -1,0 +1,80 @@
+@mixin box {
+  background: #fff;
+  box-sizing: border-box;
+  padding: 10px;
+  border: $border-main;
+}
+
+@mixin flex($x, $y) {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: $y;
+  justify-content: $x;
+}
+
+@mixin font($s, $w, $c) {
+  font-size: $s;
+  font-weight: $w;
+  color: $c;
+}
+
+@mixin button($c, $b) {
+  border-radius: 15px;
+  color: $c;
+  background: $b;
+  padding: 10px;
+  font-style: normal;
+}
+
+@mixin circle($b) {
+  border-radius: 50%;
+  background: $b;
+  padding: 10px;
+  box-sizing: border-box;
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+}
+
+@mixin float($float, $w, $m, $p) {
+  float: $float;
+  width: $w;
+  margin: $m;
+  padding: $p;
+  box-sizing: border-box;
+}
+
+@mixin shadow_bg($w, $aitem) {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: $aitem;
+  width: $w;
+  background-color: #b1b1b1;
+  background-image: linear-gradient(to top, #000000 0%, rgba(0, 0, 0, 0) 100%);
+}
+
+@mixin btn($url) {
+  width: 41px;
+  height: 41px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-image: url($url);
+  background-repeat: no-repeat;
+  display: inline-block;
+  background-position: 50%;
+}
+
+@mixin house_block($color) {
+  background-image: url(../images/ico-house.svg);
+  background-repeat: no-repeat;
+  color: $color;
+  width: 84px;
+  min-height: 86px;
+}
+
+@mixin way_tab__block($bgcolor) {
+  width: 244px;
+  min-height: 42px;
+  background: $bgcolor;
+}

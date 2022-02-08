@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../scss/catalog2.scss"
+    ],
+    "names": [],
+    "file": "catalog2.css"
+}

@@ -1,0 +1,84 @@
+.ico_vector {
+  display: inline-block;
+  width: 27px;
+  height: 27px;
+  background: url(../images/vector.svg) no-repeat;
+  margin-right: 10px;
+}
+
+.flex_for_title {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: baseline;
+}
+
+.article_title_margin {
+  margin-bottom: 31px;
+}
+
+.article_rocks {
+  display: flex;
+  flex-flow: row nowrap;
+  margin: 53px 0px 110px 0px;
+  &__block {
+    display: inline-block;
+    width: 255px;
+    height: 170px;
+    background: url(../images/grey-block-rocks.svg) no-repeat;
+    margin-right: 30px;
+  }
+  &.routes {
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    align-content: center;
+    img {
+      margin: 0px 29px;
+    }
+  }
+}
+.article_info_rocks {
+  display: flex;
+  flex-flow: row nowrap;
+  margin: 50px 0px 154px 0px;
+  .article_info_rocks_block {
+    margin-right: 30px;
+    .article_info_rocks_block_text {
+      &__date {
+        ul {
+          margin: 0px;
+          text-decoration: none;
+          padding: 0px;
+          display: flex;
+          justify-content: space-between;
+          width: 254px;
+          li {
+            text-transform: capitalize;
+            display: inline;
+            list-style: none;
+            font-family: "Roboto";
+            font-style: normal;
+            font-weight: normal;
+            font-size: 13px;
+            line-height: 15px;
+            color: #777777;
+            margin: 11px 0px 6px 0px;
+          }
+        }
+      }
+      &__header {
+        font-weight: bold;
+        font-size: 15px;
+        line-height: 21px;
+        width: 262px;
+        margin-bottom: 3px;
+      }
+      &__description {
+        font-size: 14px;
+        line-height: 20px;
+        color: #444444;
+        width: 256px;
+      }
+    }
+  }
+}

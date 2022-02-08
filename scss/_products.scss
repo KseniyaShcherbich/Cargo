@@ -1,0 +1,118 @@
+.main_publication__info {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 93px;
+  &__block {
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 31px 28px 30px 0px;
+    &__pic {
+      margin-right: 28px;
+      img {
+        width: 84px;
+        height: 113px;
+        padding: 22px 33px;
+        box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+      }
+    }
+    &__text {
+      display: flex;
+      flex-flow: row wrap;
+      width: 347px;
+      &__header {
+        font-family: Raleway;
+        font-weight: bold;
+        font-size: 23px;
+        color: #444444;
+        margin-bottom: 20px;
+      }
+      &__choice {
+        font-family: Raleway;
+        font-size: 13px;
+        line-height: 18px;
+        color: #aaaaaa;
+        margin-bottom: 5px;
+      }
+      &__cities {
+        font-family: Raleway;
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 18px;
+        color: #1b79e7;
+        margin-bottom: 20px;
+      }
+      &__inform {
+        font-family: Raleway;
+        font-size: 14px;
+        line-height: 20px;
+        color: #444444;
+      }
+    }
+  }
+}
+.main_publication__products {
+  display: flex;
+  flex-flow: row nowrap;
+  margin: 31px 30px 69px 0px;
+  &__block {
+    margin-right: 30px;
+    ul {
+      margin: 0px;
+      padding: 0px;
+      width: 255px;
+      li {
+        font-family: Raleway;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 18px;
+        color: #aaaaaa;
+        list-style: none;
+        text-decoration: none;
+        margin-bottom: 20px;
+      }
+    }
+  }
+}
+.main_publication__seo {
+  &__header {
+    font-family: Raleway;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 34px;
+    color: #000000;
+    margin-bottom: 20px;
+  }
+  &__block {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: baseline;
+    align-items: center;
+    &__text {
+      width: 799px;
+      font-family: Raleway;
+      font-size: 16px;
+      line-height: 23px;
+      color: #000000;
+      margin-right: 121px;
+    }
+    &__button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      border: 1px solid #cccccc;
+      height: 40px;
+      width: 190px;
+      p {
+        margin: 0px;
+        font-family: Raleway;
+        font-weight: 800;
+        font-size: 13px;
+        line-height: 15px;
+        text-transform: uppercase;
+        color: #777777;
+      }
+    }
+  }
+}

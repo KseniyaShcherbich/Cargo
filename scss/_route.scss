@@ -1,0 +1,25 @@
+.house {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-content: center;
+  margin-bottom: 70px;
+}
+
+.footer__link {
+  a {
+    color: #1b79e7;
+  }
+}
+
+.route_text_margin {
+  margin: 0px;
+}
+
+.route_title_margin {
+  margin: 100px 0px 51px 0px;
+}
+
+.route_house_margin {
+  margin-bottom: 20px;
+}

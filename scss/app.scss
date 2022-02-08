@@ -1,0 +1,496 @@
+@import "../fonts/_stylesheet.scss";
+@import "../fonts/_roboto.scss";
+@import "_fonts.scss";
+
+@import "_var.scss";
+@import "_icons.scss";
+@import "_mixins.scss";
+@import "_modules.scss";
+@import "_news_articles.scss";
+@import "_arlicle.scss";
+@import "_routes.scss";
+@import "_route.scss";
+@import "_cities.scss";
+@import "_city.scss";
+@import "_products.scss";
+@import "_product.scss";
+@import "_publications.scss";
+
+body {
+  background: $bg-color;
+  font-family: $font;
+}
+
+.container {
+  width: $container;
+  margin: 0px auto;
+}
+
+.mainpage_delivery {
+  width: 100%;
+  background: url(../images/cargo.svg) no-repeat;
+}
+
+.title_mainpage_advantg {
+  margin-bottom: 82px;
+}
+
+.delivery_cargo {
+  width: 100%;
+  margin-top: 160px;
+  &__info {
+    margin-bottom: 25px;
+    p {
+      width: 444px;
+      font-family: Raleway;
+      font-weight: 800;
+      font-size: 48px;
+      line-height: 56px;
+      text-transform: uppercase;
+      color: #000000;
+      margin: 0px;
+    }
+  }
+  &__button {
+    margin-bottom: 250px;
+    border: 1px solid #b10bff;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 180px;
+    min-height: 40px;
+    p {
+      font-family: Raleway;
+      font-weight: 800;
+      font-size: 13px;
+      line-height: 15px;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      text-transform: uppercase;
+      color: #b10bff;
+    }
+  }
+}
+
+.mainpage_ways {
+  width: 100%;
+  margin-top: 102px;
+  background: url(../images/bg-lines.svg) no-repeat top center;
+  margin-bottom: 153px;
+
+  &__list {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+  }
+  &__ico {
+    background-image: url(../images/ico-way.svg);
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 64px;
+    min-height: 118px;
+  }
+  &__block {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    text-align: center;
+    width: 300px;
+    min-height: 340px;
+    background: #fff;
+    border: 1px solid #eeeeee;
+    box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.08);
+    padding: 50px 22px 65px 22px;
+    box-sizing: border-box;
+  }
+  &__text {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+  }
+  &__description {
+    font-size: 16px;
+    font-weight: 400;
+    color: #ccc;
+  }
+  .maipage_title {
+    margin-bottom: 78px;
+  }
+  .container {
+    width: $container;
+    margin: 0px auto;
+    .delivery_ways {
+      h2 {
+        text-transform: uppercase;
+        font-size: 36px;
+      }
+    }
+  }
+}
+
+.city {
+  width: 100%;
+  &__list {
+    display: flex;
+    flex-flow: row nowrap;
+  }
+  &__description {
+    font-family: Raleway;
+    font-size: 16px;
+    line-height: 23px;
+    color: #777777;
+    width: 50%;
+    margin: 54px 0px 38px;
+  }
+  &__item {
+    position: relative;
+    width: 180px;
+    img {
+      width: 100%;
+    }
+  }
+  &__text {
+    position: absolute;
+    bottom: 60px;
+    width: 100%;
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 23px;
+    text-align: center;
+    color: #fff;
+  }
+}
+
+.toys {
+  margin: 109px 0px 113px 0px;
+  padding: 79px 0px 121px 0px;
+  background: url(../images/bg_toys.svg);
+  &__list {
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 37px;
+  }
+  &__item {
+    width: 160px;
+    min-height: 102px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    text-align: center;
+    margin: 0px 30px 45px 0px;
+    &:nth-child(6n) {
+      margin-right: 0px;
+    }
+
+    .icon {
+      margin-bottom: 25px;
+      margin-right: 0px;
+    }
+  }
+}
+
+.calculator {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+
+  .calk_news-link {
+    float: right;
+    margin-top: 157px;
+    a {
+      color: #b10bff;
+      font-family: Raleway;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 20px;
+      display: flex;
+      align-items: center;
+      text-align: right;
+    }
+  }
+  .calculator__flex-for {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    margin-top: 48px;
+    .calculator-info {
+      width: 540px;
+      &__header {
+        font-weight: 700;
+        font-size: 24px;
+        text-transform: capitalize;
+        margin-bottom: 30px;
+      }
+      &__text {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22, 54px;
+      }
+    }
+    .calculator-form {
+      width: 446px;
+      font-family: Raleway;
+      font-size: 16px;
+      line-height: 23px;
+      color: #777777;
+      .calc_name {
+        border: 1px solid #bbbbbb;
+        padding: 15px 0px;
+        select {
+          border: 0px solid;
+          width: 100%;
+          padding: 0px 20px;
+          -moz-appearance: none; /* Firefox */
+          -webkit-appearance: none; /* Safari and Chrome */
+          appearance: none;
+          background: url(../images/down-arrow.svg) no-repeat 95% 10px;
+          &:focus {
+            outline: none;
+          }
+          &:after {
+            content: "";
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            background: red;
+          }
+        }
+        .calculator_name {
+          padding: 0px 200px 0px 15px;
+          border: 1px solid #fff;
+        }
+      }
+      .calc-btn {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        .calculator-button {
+          margin-top: 40px;
+          padding: 10px 30px;
+          background: #b10bff;
+          border: 1px solid #b10bff;
+          color: #fff;
+          font-weight: bold;
+          font-size: 18px;
+        }
+      }
+      .under-button-text {
+        margin-top: 14px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+      }
+    }
+    .calculator-flex {
+      display: flex;
+      flex-flow: row nowrap;
+      margin: 40px 0px;
+      .calc-item {
+        display: flex;
+        flex-flow: row nowrap;
+        margin-right: 16px;
+        input {
+          outline: none;
+        }
+      }
+      .calculator_block {
+        width: 125px;
+        height: 46px;
+        border: 1px solid #bbbbbb;
+        border-right: 0px solid;
+        text-align: center;
+      }
+      .calcul_dark-block {
+        width: 85px;
+        height: 50px;
+        background: #c4c4c4;
+
+        p {
+          font-family: Raleway;
+          font-weight: 600;
+          font-size: 16px;
+          line-height: 23px;
+          text-align: center;
+          color: #ffffff;
+        }
+      }
+    }
+    .calculator-form_location {
+      width: 410px;
+      height: 48px;
+      padding-left: 30px;
+      border: 1px solid #bbb;
+      outline: none;
+    }
+  }
+}
+
+.publications {
+  .publications__list {
+    justify-content: center;
+    margin-top: 120px;
+    ul {
+      margin: 0px;
+      text-decoration: none;
+
+      li {
+        display: inline;
+        list-style: none;
+        margin-right: 88px;
+      }
+    }
+  }
+  .flex {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    margin: 9px 0px 120px 0px;
+    .publications-main {
+      .ico_cars {
+        margin-bottom: 9px;
+        width: 540px;
+        height: 300px;
+        background: url(../images/cars.svg);
+        background-repeat: no-repeat;
+        display: inline-block;
+      }
+      .text {
+        margin-bottom: 12px;
+        &__header {
+          font-weight: bold;
+          font-size: 18px;
+          line-height: 21px;
+        }
+        &__date {
+          font-family: "Roboto";
+          font-style: normal;
+          font-weight: normal;
+          font-size: 13px;
+          line-height: 15px;
+          color: #777777;
+          margin: 8px 0px 12px 0px;
+        }
+        &__info {
+          font-size: 14px;
+          line-height: 20px;
+          color: #444444;
+          width: 540px;
+        }
+      }
+    }
+    .publications-second {
+      &__block {
+        display: flex;
+        flex-flow: row nowrap;
+        margin-bottom: 10px;
+        &:nth-child(3n) {
+          margin-right: 0px;
+        }
+        .ico_bus {
+          background: url(../images/bus.svg);
+          background-repeat: no-repeat;
+          display: inline-block;
+          width: 256px;
+          height: 140px;
+          margin-right: 19px;
+        }
+        .text {
+          margin-bottom: 12px;
+          &__header {
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 21px;
+          }
+          &__date {
+            font-family: "Roboto";
+            font-style: normal;
+            font-weight: normal;
+            font-size: 13px;
+            line-height: 15px;
+            color: #777777;
+            margin: 8px 0px 12px 0px;
+          }
+          &__info {
+            font-size: 14px;
+            line-height: 20px;
+            color: #444444;
+            width: 256px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.header_nav {
+  margin-bottom: 48px;
+}
+
+.main_publications {
+  &__nav {
+    margin-bottom: 6px;
+    ul {
+      margin: 0px;
+      text-decoration: none;
+      padding: 0px;
+      li {
+        display: inline;
+        list-style: none;
+        margin-right: 8px;
+        font-size: 13px;
+        line-height: 15px;
+        color: #aaaaaa;
+      }
+    }
+  }
+  .flex_for {
+    margin-top: 31px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    .main_publications__first_block {
+      flex: 0 0 255px;
+      margin-right: 30px;
+    }
+    .twelve {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-between;
+      margin-bottom: 56px;
+      .main_publications__second_block {
+        .text {
+          &__date {
+            font-family: "Roboto";
+            font-style: normal;
+            font-weight: normal;
+            font-size: 13px;
+            line-height: 15px;
+            color: #777777;
+            margin: 11px 0px 6px 0px;
+          }
+          &__header {
+            font-weight: bold;
+            font-size: 15px;
+            line-height: 21px;
+            width: 262px;
+            margin-bottom: 3px;
+            a {
+              color: #444444;
+            }
+          }
+          &__info {
+            font-size: 14px;
+            line-height: 20px;
+            color: #444444;
+            width: 256px;
+            margin-bottom: 26px;
+          }
+        }
+      }
+    }
+  }
+}
